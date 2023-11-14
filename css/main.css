@@ -81,7 +81,7 @@ a {
     width: 490px;
 }
 
-h2.title {
+h2.intro-heading {
     color: #000;
     font-family: var(--font-family);
     font-size: 50px;
@@ -228,3 +228,21 @@ hr {
     align-items: center;
 }
 /* SECTION END features-section */
+
+/* SECTION STARTING info section */
+
+.info-section {
+    padding: 70px 0;
+}
+
+.info-section .info-section__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-section .info-section__wrapper .info-section__wrapper-content {
+    width: 490px;
+}
+
+/* SECTION END info section */
