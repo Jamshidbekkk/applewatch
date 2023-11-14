@@ -230,7 +230,6 @@ hr {
 /* SECTION END features-section */
 
 /* SECTION STARTING info section */
-
 .info-section {
     padding: 70px 0;
 }
@@ -244,5 +243,23 @@ hr {
 .info-section .info-section__wrapper .info-section__wrapper-content {
     width: 490px;
 }
-
 /* SECTION END info section */
+
+/* SECTION STARTING health control */
+.health-control {
+    background-image: url(../images/runners.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.health-control .health-control__wrapper .health-control__wrapper-content {
+    width: 490px;
+    padding: 240px 0;
+}
+
+.health-control .health-control__wrapper .health-control__wrapper-content .intro-heading, 
+.health-control .health-control__wrapper .health-control__wrapper-content .description {
+    color: #FFF;
+}
+/* SECTION END health control */
