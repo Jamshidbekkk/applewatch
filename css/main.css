@@ -62,7 +62,7 @@ main {
 
 .container {
     width: 100%;
-    max-width: 1250px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -78,13 +78,50 @@ a {
 
 /* UNIVERSAL CODES START */
 
+.main-wrapper {
+    width: 490px;
+}
 
+h2.title {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-weight: var(--font-weightPrimary);
+    line-height: 120%
+}
+
+p.description {
+    color: #777;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: var(--font-weightSecondary);
+    line-height: 150%;
+    border-left: 1px solid #888;
+    padding-left: 40px;
+    margin: 30px 0;
+}
+
+button.main {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    border: none;
+    background: #EA625C;
+    padding: 12px;
+    width: 260px;
+}
 
 /* UNIVERSAL CODES END */
 
 /* HEADER STYLES START */
 
 .site-header {
+    /* width: 1000px;
+    margin: auto; */
     padding: 30px 0 80px 0;
 }
 
@@ -132,3 +169,17 @@ a {
 }
 
 /* HEADER STYLES END */
+
+/* MAIN STYLES START */
+
+.site-main {
+    padding-top: 170px;
+    padding-bottom: 183px;
+    height: 100vh;
+    background-image: url(../images/apple-watch-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 600px) -1px;
+}
+
+
+/* MAIN STYLES END */
