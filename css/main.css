@@ -10,15 +10,15 @@
 
   :root {
     /* colors */
-    --colorPrimary: red;
-    --colorSecondary: red;
+    /* --colorPrimary: red; */
+    /* --colorSecondary: red; */
     /* backrgrunds */
     --backgroundPrimary: #FFFFFF;
     --backgroundSecondary: #DDDDDD;
     /* btn colors */
     --btnColor: #FFF;
-    --btnHover: red;
-    --btnDisabled: red;
+    /* --btnHover: red; */
+    /* --btnDisabled: red; */
     /* fonts */
     --font-family: 'Roboto', serif;
     --font-weightPrimary: 700;
@@ -133,7 +133,7 @@ p.feature-text{
 
 /* HEADER STYLES START */
 .site-header {
-    padding: 30px 0 80px 0;
+    padding: 30px 0 0 0;
 }
 
 .site-header .site-header__wrapper {
@@ -186,7 +186,7 @@ p.feature-text{
     height: 100vh;
     background-image: url(../images/apple-watch-bg.png);
     background-repeat: no-repeat;
-    background-position: calc(50% + 520px) 70px;
+    background-position: calc(50% + 500px) 70px;
     background-size: 587px;
 }
 
@@ -248,11 +248,11 @@ hr {
 
 /* SECTION STARTING health control */
 .health-control {
-    /* width: 100%; */
+    width: 100%;
     padding: 240px 0;
     background-image: url(../images/runners.jpg);
     background-repeat: no-repeat;
-    background-position: top-right;
+    background-position: top;
     background-size: cover;
 }
 
