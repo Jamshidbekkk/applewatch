@@ -12,7 +12,7 @@
     /* colors */
     --colorPrimary: red;
     --colorSecondary: red;
-    /* backrgounds */
+    /* backrgrunds */
     --backgroundPrimary: #FFFFFF;
     --backgroundSecondary: #DDDDDD;
     /* btn colors */
@@ -77,10 +77,6 @@ a {
 }
 
 /* UNIVERSAL CODES START */
-.main-wrapper {
-    width: 490px;
-}
-
 h2.intro-heading {
     color: #000;
     font-family: var(--font-family);
@@ -95,7 +91,7 @@ p.description {
     font-size: 16px;
     font-weight: var(--font-weightSecondary);
     line-height: 150%;
-    border-left: 1px solid #888;
+    border-left: 2px solid #888;
     padding-left: 40px;
     margin: 30px 0;
 }
@@ -187,14 +183,19 @@ p.feature-text{
 /* MAIN STYLES START */
 .site-main {
     padding-top: 170px;
-    /* padding-bottom: 183px; */
     height: 100vh;
     background-image: url(../images/apple-watch-bg.png);
     background-repeat: no-repeat;
-    background-position: calc(50% + 600px) -1px;
+    background-position: calc(50% + 520px) 70px;
+    background-size: 587px;
 }
+
+.site-main .main-wrapper {
+    width: 490px;
+}
+
 hr {
-    margin-top: 393px;
+    margin-top: 170px;
     color: #333333;
 }
 /* MAIN STYLES END */
@@ -247,15 +248,17 @@ hr {
 
 /* SECTION STARTING health control */
 .health-control {
+    /* width: 100%; */
+    padding: 240px 0;
     background-image: url(../images/runners.jpg);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
+    background-position: top-right;
+    background-size: cover;
 }
 
 .health-control .health-control__wrapper .health-control__wrapper-content {
     width: 490px;
-    padding: 240px 0;
+    margin-left: 510px;
 }
 
 .health-control .health-control__wrapper .health-control__wrapper-content .intro-heading, 
