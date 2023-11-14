@@ -77,7 +77,6 @@ a {
 }
 
 /* UNIVERSAL CODES START */
-
 .main-wrapper {
     width: 490px;
 }
@@ -106,7 +105,7 @@ button.main {
     text-align: center;
     font-family: var(--font-family);
     font-size: 18px;
-    font-weight: 700;
+    font-weight: var(--font-weightPrimary);
     line-height: 150%;
     text-transform: uppercase;
     border: none;
@@ -115,13 +114,29 @@ button.main {
     width: 260px;
 }
 
+h3.feature-heading {
+    color: #222;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: var(--font-weightPrimary);
+    line-height: 150%; 
+    text-transform: uppercase;
+}
+
+p.feature-text{
+    color: #333;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: var(--font-weightSecondary);
+    line-height: 160%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 /* UNIVERSAL CODES END */
 
 /* HEADER STYLES START */
-
 .site-header {
-    /* width: 1000px;
-    margin: auto; */
     padding: 30px 0 80px 0;
 }
 
@@ -167,19 +182,49 @@ button.main {
     font-weight: var(--font-weightSecondary);
     line-height: 150%; 
 }
-
 /* HEADER STYLES END */
 
 /* MAIN STYLES START */
-
 .site-main {
     padding-top: 170px;
-    padding-bottom: 183px;
+    /* padding-bottom: 183px; */
     height: 100vh;
     background-image: url(../images/apple-watch-bg.png);
     background-repeat: no-repeat;
     background-position: calc(50% + 600px) -1px;
 }
-
-
+hr {
+    margin-top: 393px;
+    color: #333333;
+}
 /* MAIN STYLES END */
+
+/* SECTION STARTS features-section */
+.features-section {
+    padding: 70px 0;
+}
+
+.features-section .features-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section .features-section__wrapper .features-section__wrapper-feature {
+    width: 280px;
+}
+
+.features-section .features-section__wrapper .features-section__wrapper-feature .learn-more a {
+    color: #EA625C;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: var(--font-weightPrimary);
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.features-section .features-section__wrapper .features-section__wrapper-feature .learn-more {
+    display: flex;
+    align-items: center;
+}
+/* SECTION END features-section */
